@@ -4,8 +4,8 @@ class Player {
       isStatic: true
     };
 
-//create the rectangular shaped body.
-this.body=Bodies.rectangle(x,y,this.width,this.height,options)
+    this.body = Bodies.rectangle(x, y, width, height, options);
+
     this.width = width;
     this.height = height;
     this.image = loadImage("./assets/player.png");
